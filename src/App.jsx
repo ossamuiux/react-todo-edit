@@ -6,7 +6,7 @@ import { useState } from 'react';
 const initTodos = [
   {
     id: 1,
-    text: '리액트 공부하기',
+    text: '저녁에 운동하기',
     done: false,
   },
   {
