@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <div className="p-[20px]">
-      <h2 className="text-[30px] font-bold text-gray-600">Todo List</h2>
+      <h2 className="text-[30px] font-bold text-gray-600">투두 리스트</h2>
       <TodoCount todos={todos} />
       <TodoAdd todos={todos} setTodos={setTodos} />
       <TodoList todos={todos} setTodos={setTodos} />
